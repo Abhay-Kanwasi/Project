@@ -38,9 +38,9 @@ All done app is ready to go...
 
 __Demo :__
 
+![Command app SS](https://user-images.githubusercontent.com/78997764/184631676-a52d2891-1b6b-4f23-b387-8a7920707626.png)
 
 
-![](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/djoke/Desktop/Project/Command%20app/Command%20app%20SS.png?version%3D1660564463415)
 
 <br />
 
