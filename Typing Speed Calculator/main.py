@@ -5,7 +5,7 @@ from time import *
 import random as r
 
 # This function check the errors in user inputted string.
-def mistake(paragraph_test,user_test):
+def error(paragraph_test,user_test):
     error = 0
     for i in range(len(paragraph_test)):
         try:
@@ -41,4 +41,4 @@ testinput = input("Enter : ")
 time2 = time()
 
 print('Speed :',typing_speed(time1,time2,testinput),"word/sec.")
-print("Error :",mistake(string,testinput))
+print("Error :",error(string,testinput))
