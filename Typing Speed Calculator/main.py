@@ -24,21 +24,33 @@ def typing_speed(time_start,time_end,user_input):
 
 
 # MAIN PROGRAM
+if __name__ == '__main__':
+    while True:
+        check = input("ready to test : yes/no : ")
+        if check == "yes" or check == "Yes":
+            text = ["A Charmender is a fire type pokemon",
+                    "A Pikachu is a lightning type pokemon",
+                    "Raichu is the advance version of Pikachu"
+                    ] 
+            print("******** Typing Speed Calculator ***********")
+            print()
+            string = r.choice(text)
+            print(f"Type this : {string}")
+            print()
 
-print("******** Typing Speed Calculator ***********")
+            time1 = time()
+            testinput = input("Enter : ")
+            time2 = time()
+            print()
+            print('Speed :',typing_speed(time1,time2,testinput),"word/sec.")
+            print()
+            print("Error :",error(string,testinput))
+            print()
+        elif check == "no" or check == "No":
+            print()
+            print("Thank you for checking..")
+            break
 
-text = ["A Charmender is a fire type pokemon",
-        "A Pikachu is a lightning type pokemon",
-        "Raichu is the advance version of Pikachu"
-        ] 
-
-string = r.choice(text)
-print(f"Type this : {string}")
-print("\n\n")
-
-time1 = time()
-testinput = input("Enter : ")
-time2 = time()
-
-print('Speed :',typing_speed(time1,time2,testinput),"word/sec.")
-print("Error :",error(string,testinput))
+        else:
+            print()
+            print("Wrong input.")
