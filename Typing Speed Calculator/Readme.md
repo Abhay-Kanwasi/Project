@@ -34,6 +34,6 @@ Then use time delay and divide it by length of user_input and you get word per s
 
 __Conclusion__
 
-We use simple approch and minimum to minimum resource to create basic functionality of a typing speed not calculator.
+We use simple approch and minimum to minimum basic resource to create basic functionality of a typing speed not calculator.
 
 
