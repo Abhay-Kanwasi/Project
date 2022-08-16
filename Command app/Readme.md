@@ -45,5 +45,5 @@ __Demo :__
 <br />
 
 __Code Screenshot__
+Code SS.png
 
-Command app/Pictures/Code SS.png
