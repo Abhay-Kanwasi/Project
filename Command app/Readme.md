@@ -45,5 +45,6 @@ __Demo :__
 <br />
 
 __Code Screenshot__
-https://github.com/Abhay-Coder001/Project/blob/master/Command%20app/Pictures/Code%20SS.png
+![Code SS](https://user-images.githubusercontent.com/78997764/184824121-d2bbec04-f77c-449c-91c6-98dc475cf490.png)
+
 
