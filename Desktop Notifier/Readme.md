@@ -22,3 +22,10 @@ After that we will use notification class and at that class we will give paramet
 4. Timeout : When our notication will stop showing.
 
 After this we will set a loop and each loop will continue it's process with delay of 10 Seconds(Which we will do by using time.sleep(10))
+
+For running this in background properly name file like this :
+pythonw<file name>.py
+
+### How to stop notification ?
+We are using an infinite loop so notification will not stop.. In that scenario go for: 
+Task Manager>>Python>>End Task
