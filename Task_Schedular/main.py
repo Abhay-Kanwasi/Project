@@ -12,9 +12,17 @@ def task():
         timeout = 1
     )
 
-schedule.every().day.at("21:34").do(task)
+# Method 1
 
+time = input("Enter the time in (HH:MM) format : ")
+day_counter = int(input("How many days you want this notification : "))
+j = schedule.every().day.at(time).do(task)
+
+count = 0
 while True:
     schedule.run_pending()
     tm.sleep(10)
+    count += 1
+    if count == day_counter:
+        schedule.cancel_job(j)
 
